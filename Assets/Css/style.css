@@ -44,6 +44,18 @@ ul{
     font-size: 25px;
 }
 
+.red-text{
+    font-size: 30px;
+    color: red;
+    font-weight: bolder;
+    
+}
+
+.number{
+    font-size: 20px;
+    color: red;
+}
+
 #guesses{
     color: red;
     font-weight: bolder;
@@ -55,6 +67,6 @@ ul{
 }
 
 button:hover {
-    background-color: #4CAF50; /* Green */
-    color: white;
+    background-color: red;
+    color:greenyellow;
 }
