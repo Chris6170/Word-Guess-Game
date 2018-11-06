@@ -4,87 +4,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+        crossorigin="anonymous">
     <link rel="stylesheet" href="Assets/Css/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
+
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Time too guess</title>
 </head>
 
-<div class="jumbotron jumbotron-fluid">
-    <div class="container">
-        <h1 class="display-4">All the small things that flicked your fat lip on a holiday.</table>
-        </h1>
-    </div>
+<div class="row head">
+
+    <p>Remember them?</p>
+
 </div>
 
-<body class="bg" class="container">
 
+<body class="bg" class="container">
     <div class="row" id="row1">
         <div class="col-lg-4">
-            <img src="Assets/images/Blink.jpeg" alt="200px">
-
         </div>
 
-        <div  class="col-md-4">
+        <div class="col-md-4 box">
             <h3 class="red-text">You guessed:</h3>
-           
+
             <ul id="guesses">
-                    
-
             </ul>
-
-
         </div>
-
-
-    </div>
-
-    <div class="row" id="row2">
-        <form class="form-horizontal">
-            <div class="form-group">
-
-                <div class="col-sm-10" id="test">
-
-                </div>
-            </div>
-        </form>
-
-
     </div>
 
     <div class="row">
+
+        <div id="#dash"></div>
         <div class="col-sm-4 col-sm-offset-3 ext-center">
             <div id="inputArea" class="input-group mb-2">
                 <input id="userInput" type="text" class="form-control" placeholder="Try your best here!" aria-label="Recipient's username"
                     aria-describedby="basic-addon2">
-                <div class="input-group-append">
-                    <button id="button"  type="button">Feeling confident?</button>
-                </div>
             </div>
         </div>
-
-
-
-
-
     </div>
 
     <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-2 boxWin">
             <div class="red-text">Wins</div>
-            <section class="number" id="wins" >0</section>
-
+            <section class="number" id="wins">0</section>
 
         </div>
-        <div class="col-md-4">
-                <div class="red-text" >Losses</div>
-              <Section class="number" id="losses"  >0</Section>
-    
-    
-            </div>
 
-
+        <div class="col-md-2 boxLose">
+            <div class="red-text">Losses</div>
+            <Section class="number" id="losses">0</Section>
+        </div>
     </div>
 
 
@@ -94,11 +65,23 @@
 
 
 
+    <footer class="foot">
+
+        <i class="far fa-arrow-alt-circle-left"></i>
 
 
-    <!-- Java Links -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
+
+
+    </footer>
+
+
+
+
+
+    <!-- Javascript Links -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
         crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"

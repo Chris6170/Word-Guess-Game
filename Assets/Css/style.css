@@ -1,6 +1,73 @@
+
+
+.head{
+    background-image: url(https://i.redd.it/gyv97ygx22tz.png);
+    background-position: right;
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-color: black;
+    margin-top: 30px;
+    color: 	#C0081A;
+    font-family: fantasy;
+    
+}
+
+.foot{
+    background-image: url(https://pre00.deviantart.net/fec7/th/pre/i/2012/245/3/b/sum_41_by_jlmanzano-d5dc46o.png);
+    background-position: left;
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-color: #181818;
+    background-position-y: -10px;
+    padding-top: 10px;
+    color: 	#C0081A;
+    font-family: fantasy;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  
+    
+}
+
+.box{
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px red;
+    margin-top: 20px;
+}
+
+.boxWin{
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px red;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.boxLose{
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px red;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+.far{
+    font-size: 60px;
+    color: #F23839;
+    margin-left: 90%;
+}
+
+p {
+    font-size: 3.5rem;
+    margin-left: 250px;
+    margin-top: 10px;
+    
+}
+
 img{
-    width: 200px;
     height: 200px;
+    width: 200px;
 }
 
 #row1{
@@ -16,7 +83,15 @@ img{
     margin-top: 10px;
 }
  body{
-     background-image: url(../images/punk.jpg)
+     background-image: url(https://1000logos.net/wp-content/uploads/2018/04/Blink-182-Logo.png);
+     background-position: right;
+     background-size: 600px;
+     background-repeat: no-repeat;
+     background-color:black;
+     background-position-y: 300px;
+
+
+     
  }
 
  .shadow-textarea textarea.form-control::placeholder {
@@ -32,11 +107,6 @@ img{
     margin-left: 200px;
 }
 
-.jumbotron{
-    font-style: impact;
-    font-weight: bolder;
-    background-image: url(../images/Graf.jpg) 
-}
 
 ul{
     color: red;
